@@ -1,0 +1,61 @@
+.container{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+.flex-column-center{
+	flex-direction: column;
+	align-items: center;
+}
+form{
+	width: 30%;
+}
+
+.input-group{
+	display: flex;
+	flex-direction: column;
+}
+.input-group>*{
+	margin: 5px;
+}
+.i-g-radio{
+	flex-direction: row;
+}
+.input-group-gender{
+	margin: 5px;
+}
+
+.trener-item{
+	display: flex;
+	align-items: center;
+}
+.trener-item>*{
+	margin: 5px;
+}
+.btn{
+	background: transparent;
+}
+.btn-edit{
+	border: 1px solid orange;
+	color: orange;
+}
+.btn-delete{
+	border: 1px solid red;
+	color: red;
+}
+button{
+	margin: 0px 0px 0px 15px;
+}
+.list-trener{
+	width: 30%;
+}
+
+.form-edit{
+	width: 70%;
+}
+.form-edit form{
+	width: 50%;
+}
+.error_form{
+	color: red;
+}
